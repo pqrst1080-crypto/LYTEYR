@@ -175,11 +175,12 @@ footer{position:relative;z-index:1;padding:3rem;border-top:1px solid rgba(0,229,
 <nav>
   <div class="logo">AG<span>RL</span></div>
   <div class="nav-links">
-    <a href="#about">About</a>
-    <a href="#research">Research</a>
-    <a href="#publications">Papers</a>
-    <a href="#team">Team</a>
-    <a href="#contact">Contact</a>
+  <a href="#about">About</a>
+  <a href="#research">Research</a>
+  <a href="#publications">Papers</a>
+  <a href="#team">Team</a>
+  <a href="#contact">Contact</a>
+  <a href="login.html">Login</a>
   </div>
 </nav>
 
@@ -189,8 +190,9 @@ footer{position:relative;z-index:1;padding:3rem;border-top:1px solid rgba(0,229,
   <h1 class="hero-title">Defying Gravity.<br>Defining the Future.</h1>
   <p class="hero-sub">Pioneering the science of gravitational manipulation, magnetic levitation, and quantum propulsion at the frontier of theoretical and applied physics.</p>
   <div class="hero-buttons">
-    <a href="#research" class="btn-primary">Explore Research</a>
-    <a href="#publications" class="btn-outline">View Publications</a>
+  <a href="#research" class="btn-primary">Explore Research</a>
+  <a href="#publications" class="btn-outline">View Publications</a>
+  <a href="login.html" class="btn-primary">Access Portal</a>
   </div>
   <div class="ring-container">
     <div class="ring ring-1"></div>
@@ -612,7 +614,7 @@ window.addEventListener('scroll',()=>{
 // 5. Replace YOUR_SHEETDB_API_URL below with your actual URL
 // =============================================
 
-const SHEETDB_API_URL = 'https://sheetdb.io/api/v1/ceubntween2d5';
+const SHEETDB_API_URL = 'https://sheetdb.io/api/v1/YOUR_SHEETDB_API_URL';
 
 async function submitToSheetDB() {
   const name    = document.getElementById('name').value.trim();
